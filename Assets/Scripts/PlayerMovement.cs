@@ -33,6 +33,10 @@ public class PlayerMovement : MonoBehaviour
       controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
       jump = false; //prevents the player from jumping forever
 
+
+// do this with Collision detection and tags, Raycasting is not working as intended
+//REMOVE############################################################################################
+/*
       RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, distance, isLadder); //start position, direction, length
 
       if(hitInfo.collider != null) //checks if ladder is near
@@ -58,19 +62,53 @@ public class PlayerMovement : MonoBehaviour
       {
         rb.gravityScale = 3; // resets gravity to normal
       }
+      */
+//REMOVE##################################################################################################
 
     }
+
+    void OnTriggerStay2D(Collider2D other) // while the player is inside a collider / trigger
+    {
+      if(other.tag == "Ladder") // while the player is against a ladder object
+      {
+        if(Input.GetKeyDown(KeyCode.UpArrow)) //is the up arrow pressed> attach to ladder
+        {
+          climbing = true;
+        }
+        if(climbing == true) // is already on the lader so can move freely
+        {
+          verticalMove = Input.GetAxisRaw("Vertical");
+          rb.velocity = new Vector2(rb.velocity.x, verticalMove * climbSpeed);
+          rb.gravityScale = 0;//stops the player from falling down while on the ladder
+        }
+      }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+      if(other.tag == "Ladder") // player gets off the ladder
+      {
+        climbing = false; // prevents the player form climbing forever
+        rb.gravityScale = 3; // resets gravity to normal
+      }
+    }
+
 
     void OnTriggerEnter2D(Collider2D other)// if the player collides with another collider
     {
       if(other.tag == "Checkpoint") // the player collides with a check point
       {
         respawnPoint = other.transform.position;// sets the respawnPoint to the position of th echeck point
+        respawnPoint.z -= 1f;
       }
       if(other.tag == "OutOfBounds")
       {
         transform.position = respawnPoint;
         //lose a life and respawn ?
+      }
+      if(other.tag == "Win Area")
+      {
+        Debug.Log("You Win!"); // add code for winning the lavel and then taking the player to level select
       }
     }
 }

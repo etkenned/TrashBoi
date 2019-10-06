@@ -27,6 +27,7 @@ public class CheckpointControler : MonoBehaviour
         HungerMeter.hungerLevel = 10f; // fills the hunger level in HungerMeter.cs
         Debug.Log("Yum, you ate some garbage from the can");
         checkpointSprite.sprite = TrashCanEmpty;// swaps sprites for checkpoint
+        //Destroy(GetComponent<BoxCollider>());
         checkpointReached = true;
       }
     }
