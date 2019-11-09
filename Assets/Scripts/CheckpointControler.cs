@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CheckpointControler : MonoBehaviour
 {
+  public AudioClip checkPointSound; // chewing sound
+  public AudioSource checkPointSource; // where the sound is played from
   public Sprite TrashCanFull; // sprite of unreached checkpoint
   public Sprite TrashCanEmpty;// sprite of reached checkpoint
   private SpriteRenderer checkpointSprite;
@@ -11,7 +13,8 @@ public class CheckpointControler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        checkpointSprite = GetComponent <SpriteRenderer> ();
+        checkpointSprite = GetComponent <SpriteRenderer> (); //used for changing the art when activated
+        checkPointSource.clip = checkPointSound;
     }
 
     // Update is called once per frame
@@ -24,11 +27,18 @@ public class CheckpointControler : MonoBehaviour
     {
       if(other.tag == "Player")//if the player collides with the checkpoint
       {
-        HungerMeter.hungerLevel = 10f; // fills the hunger level in HungerMeter.cs
-        Debug.Log("Yum, you ate some garbage from the can");
+        checkPointSource.Play();
+        HungerMeter.hungerLevel = HungerMeter.hungerLevelMax; // fills the hunger level in HungerMeter.cs
         checkpointSprite.sprite = TrashCanEmpty;// swaps sprites for checkpoint
         //Destroy(GetComponent<BoxCollider>());
         checkpointReached = true;
+      }
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+      if(other.tag == "Player") // shows that the player can still get food from the check point 
+      {
+        checkpointSprite.sprite = TrashCanFull;
       }
     }
 

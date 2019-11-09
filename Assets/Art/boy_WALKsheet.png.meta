@@ -1,0 +1,981 @@
+fileFormatVersion: 2
+guid: b33d806437aedc14fb6b80ce3b3cf985
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boy_WALKsheet_0
+    21300002: boy_WALKsheet_1
+    21300004: boy_WALKsheet_2
+    21300006: boy_WALKsheet_3
+    21300008: boy_WALKsheet_4
+    21300010: boy_WALKsheet_5
+    21300012: boy_WALKsheet_6
+    21300014: boy_WALKsheet_7
+    21300016: boy_WALKsheet_8
+    21300018: boy_WALKsheet_9
+    21300020: boy_WALKsheet_10
+    21300022: boy_WALKsheet_11
+    21300024: boy_WALKsheet_12
+    21300026: boy_WALKsheet_13
+    21300028: boy_WALKsheet_14
+    21300030: boy_WALKsheet_15
+    21300032: boy_WALKsheet_16
+    21300034: boy_WALKsheet_17
+    21300036: boy_WALKsheet_18
+    21300038: boy_WALKsheet_19
+    21300040: boy_WALKsheet_20
+    21300042: boy_WALKsheet_21
+    21300044: boy_WALKsheet_22
+    21300046: boy_WALKsheet_23
+    21300048: boy_WALKsheet_24
+    21300050: boy_WALKsheet_25
+    21300052: boy_WALKsheet_26
+    21300054: boy_WALKsheet_27
+    21300056: boy_WALKsheet_28
+    21300058: boy_WALKsheet_29
+    21300060: boy_WALKsheet_30
+    21300062: boy_WALKsheet_31
+    21300064: boy_WALKsheet_32
+    21300066: boy_WALKsheet_33
+    21300068: boy_WALKsheet_34
+    21300070: boy_WALKsheet_35
+    21300072: boy_WALKsheet_36
+    21300074: boy_WALKsheet_37
+    21300076: boy_WALKsheet_38
+    21300078: boy_WALKsheet_39
+    21300080: boy_WALKsheet_40
+    21300082: boy_WALKsheet_41
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy_WALKsheet_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5527
+        width: 1606
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5347c724caf82304db0cf82a9843a413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_1
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 5527
+        width: 1597
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90975d9fe0f2adf4cb8cc2067b09f8a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_2
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 5527
+        width: 1669
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a535d4f7ccc5c34fb4bc6a0248d1255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_3
+      rect:
+        serializedVersion: 2
+        x: 5842
+        y: 5527
+        width: 1673
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a489bcd17b7a5b47929b2ade7945810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_4
+      rect:
+        serializedVersion: 2
+        x: 7710
+        y: 5635
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc697f1e1425b0f4ba844b22e3af0e01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_5
+      rect:
+        serializedVersion: 2
+        x: 7760
+        y: 5513
+        width: 1676
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d20a3a804d65846915df25982e6cc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_6
+      rect:
+        serializedVersion: 2
+        x: 9628
+        y: 5635
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6a25cee41d6b54283e744e1e7b5352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_7
+      rect:
+        serializedVersion: 2
+        x: 9674
+        y: 5513
+        width: 1690
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eaa80453a09cb499533c72d7dfcdfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_8
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 5577
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68aa299daf9c6d488243e6531b580e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_9
+      rect:
+        serializedVersion: 2
+        x: 5786
+        y: 5577
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6a58d90891de543b4ea53d16765d39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4433
+        width: 1636
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb26ebeec33ba043ba600d28c22e6e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_11
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 4431
+        width: 1637
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe43ccaedca7ed47a46100f3eaf9600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_12
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4431
+        width: 1644
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07d1be13ab15b419e86b258ad14db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_13
+      rect:
+        serializedVersion: 2
+        x: 5873
+        y: 4433
+        width: 1645
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a2a701803e194f93697582bc500e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_14
+      rect:
+        serializedVersion: 2
+        x: 7805
+        y: 4447
+        width: 1620
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89905f1d175b44685ced0faeb0e48f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_15
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 4447
+        width: 1628
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc5ca9f14c0715478850596e083dd0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3468
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc79f9283ea7474482a33cafe660b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3372
+        width: 1516
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0619d5143db005d4e849731a1c5dddb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_18
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 3468
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22f55c21ee44a46aeb746ecb979a2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_19
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 3372
+        width: 1507
+        height: 816
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ff1fb87f42e2a46898f4706ceaecda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_20
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 3372
+        width: 1440
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273b122c1113e1248b9d6e599f9fa3da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_21
+      rect:
+        serializedVersion: 2
+        x: 6051
+        y: 3372
+        width: 1444
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e473315e7f2e9a542905160d982fdc6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_22
+      rect:
+        serializedVersion: 2
+        x: 7805
+        y: 3367
+        width: 1614
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048290449fc578445a0f859c19b42d05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_23
+      rect:
+        serializedVersion: 2
+        x: 9723
+        y: 3367
+        width: 1614
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcaad9a4bc7f6942aca386021bc7757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2287
+        width: 1673
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6d610ec15265a419f257240efbf281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_25
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 2287
+        width: 1664
+        height: 753
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81158450e4689847ae008884a039734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_26
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2273
+        width: 1644
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae1956ed60a0f14f8f5e54cd946c5f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_27
+      rect:
+        serializedVersion: 2
+        x: 5887
+        y: 2271
+        width: 1631
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e810ae683a07645aa0a7925cbeb59c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_28
+      rect:
+        serializedVersion: 2
+        x: 7799
+        y: 2271
+        width: 1643
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e20d33966f84341a93b1973eab7c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_29
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 2273
+        width: 1645
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f93083e70e2cc44bfcd924bc1fe7ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_30
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 2264
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc2fd79ff29ee2418ad6186a4db0c3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_31
+      rect:
+        serializedVersion: 2
+        x: 5791
+        y: 2264
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08069a06eacb16469a61cf66c0801a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1193
+        width: 1645
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a7db39d0749d54d9170605825ca510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_33
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 1191
+        width: 1631
+        height: 769
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e226264c56fe024e858b52125ba2cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_34
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 1207
+        width: 1517
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63db86152434e454099eae24e00cbd81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_35
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 1207
+        width: 1530
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616628611b59e6648a7a407748a5ee0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_36
+      rect:
+        serializedVersion: 2
+        x: 7688
+        y: 1308
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca1b65202b59634ebece339195d0d85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_37
+      rect:
+        serializedVersion: 2
+        x: 7965
+        y: 1212
+        width: 1454
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e005b3ac6ee69e4daeb8355f4fdae8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_38
+      rect:
+        serializedVersion: 2
+        x: 9610
+        y: 1308
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db7bfd6e502aaf439222d9b01d65441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_39
+      rect:
+        serializedVersion: 2
+        x: 9892
+        y: 1212
+        width: 1445
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36467d36e6853df458d9cf7d2770daf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_40
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 1574
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fa91d5b60b9b5448f6c0a5163ae6ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_WALKsheet_41
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 132
+        width: 1569
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0853c8ed7647e948bafc1cc75e35790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a120218a88caa0438beaf3d30feb266
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

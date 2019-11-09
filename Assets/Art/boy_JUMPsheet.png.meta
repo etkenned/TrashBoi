@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: b496faacb6eaf844abd2a175e1c65bf3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boy_JUMPsheet_0
+    21300002: boy_JUMPsheet_1
+    21300004: boy_JUMPsheet_2
+    21300006: boy_JUMPsheet_3
+    21300008: boy_JUMPsheet_4
+    21300010: boy_JUMPsheet_5
+    21300012: boy_JUMPsheet_6
+    21300014: boy_JUMPsheet_7
+    21300016: boy_JUMPsheet_8
+    21300018: boy_JUMPsheet_9
+    21300020: boy_JUMPsheet_10
+    21300022: boy_JUMPsheet_11
+    21300024: boy_JUMPsheet_12
+    21300026: boy_JUMPsheet_13
+    21300028: boy_JUMPsheet_14
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy_JUMPsheet_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 6405
+        width: 1914
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf8091e0dc92a4c8a5925e6c8a0900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_1
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 6405
+        width: 1914
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3ca3777892ecf4d944bcf27160489d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_2
+      rect:
+        serializedVersion: 2
+        x: 4088
+        y: 6406
+        width: 1871
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c464d18bf942d408149c3ee96c3330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_3
+      rect:
+        serializedVersion: 2
+        x: 6077
+        y: 6406
+        width: 1782
+        height: 1229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28676e4e4e68504ea5f4300472319ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_4
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4568
+        width: 1812
+        height: 1246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ceadd822bc01f4490b7e34f6282548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_5
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 4578
+        width: 1862
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f60ba40e8d6d4e96170eccd32b5bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_6
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 4578
+        width: 1862
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35d2247d99259440820f5212e44a651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_7
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 4578
+        width: 1862
+        height: 1127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf9eaa6ec4d57a4f9d68d038d36b95f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2525
+        width: 1830
+        height: 1118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44df3d9d643c4fd449e82664b4118652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_9
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2525
+        width: 1830
+        height: 1118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeb8a4aa0f33da439582a53595f2f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_10
+      rect:
+        serializedVersion: 2
+        x: 4156
+        y: 2479
+        width: 1760
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c730c60f983375e4a82b56a265929599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_11
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 2479
+        width: 1760
+        height: 1164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463cec1e770dfef48b5bbc4c71971515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 374
+        width: 1736
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94401cc9e2a734e4c89c4898e090b984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_13
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 385
+        width: 1860
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fa39ce6ac6f5f44aa0456e66279bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_JUMPsheet_14
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 385
+        width: 1860
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03be8ac8523d2ed45a73d79230edafaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be937fe7833f7664c8c5be28689b6455
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

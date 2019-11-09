@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: 30d2c7982083d014f8874c0ee4185657
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy_WALKsheettemp_0
+    21300002: enemy_WALKsheettemp_1
+    21300004: enemy_WALKsheettemp_2
+    21300006: enemy_WALKsheettemp_3
+    21300008: enemy_WALKsheettemp_4
+    21300010: enemy_WALKsheettemp_5
+    21300012: enemy_WALKsheettemp_6
+    21300014: enemy_WALKsheettemp_7
+    21300016: enemy_WALKsheettemp_8
+    21300018: enemy_WALKsheettemp_9
+    21300020: enemy_WALKsheettemp_10
+    21300022: enemy_WALKsheettemp_11
+    21300024: enemy_WALKsheettemp_12
+    21300026: enemy_WALKsheettemp_13
+    21300028: enemy_WALKsheettemp_14
+    21300030: enemy_WALKsheettemp_15
+    21300032: enemy_WALKsheettemp_16
+    21300034: enemy_WALKsheettemp_17
+    21300036: enemy_WALKsheettemp_18
+    21300038: enemy_WALKsheettemp_19
+    21300040: enemy_WALKsheettemp_20
+    21300042: enemy_WALKsheettemp_21
+    21300044: enemy_WALKsheettemp_22
+    21300046: enemy_WALKsheettemp_23
+    21300048: enemy_WALKsheettemp_24
+    21300050: enemy_WALKsheettemp_25
+    21300052: enemy_WALKsheettemp_26
+    21300054: enemy_WALKsheettemp_27
+    21300056: enemy_WALKsheettemp_28
+    21300058: enemy_WALKsheettemp_29
+    21300060: enemy_WALKsheettemp_30
+    21300062: enemy_WALKsheettemp_31
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_0
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 5437
+        width: 613
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43d3fe26732dd4aaa44a7fa55a09fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_1
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 5437
+        width: 621
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019dfe218033a5c40a8b8e27682f093d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_2
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 5437
+        width: 618
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20e1962185573542b37e4fb3cea0838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_3
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 5437
+        width: 613
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1037844f7cbf06845bb5a71c9b672b5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_4
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 5437
+        width: 621
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662b217ea15b3344294256073366ca36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_5
+      rect:
+        serializedVersion: 2
+        x: 10247
+        y: 5437
+        width: 618
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc0e16bb650bb4482ea932f4ca4075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 4357
+        width: 613
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ff0062b402c8943b26fce96805c375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_7
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 4357
+        width: 621
+        height: 1006
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba57076ee354374cad7806d7f38edf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_8
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 4345
+        width: 568
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fbbb56698a4084e8f96beee36afdf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_9
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 4341
+        width: 567
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbfc18e5edcb7843a9f3fd11e465da9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_10
+      rect:
+        serializedVersion: 2
+        x: 8323
+        y: 4345
+        width: 573
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4470395be0f3b419b45ba571e993ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_11
+      rect:
+        serializedVersion: 2
+        x: 10246
+        y: 4345
+        width: 568
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd322fc90302e439da6dddee1245de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_12
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 3261
+        width: 567
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f9cd7a4a5a02d4cab269fd1b81f671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_13
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 3265
+        width: 573
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a6e18de35e478428665720b3353d93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_14
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 3265
+        width: 568
+        height: 1041
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ba49c169e2bbc499e53ad3b62d83f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_15
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 3261
+        width: 567
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae41a75e680a304d98d837c526c9bfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_16
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 3271
+        width: 609
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec1a24ca421b3343982dfbba7e77bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_17
+      rect:
+        serializedVersion: 2
+        x: 10247
+        y: 3271
+        width: 600
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2bf83ad2a96414ba67f20d2a3cefc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_18
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 2183
+        width: 596
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d36878b1e52f5489dd1bb6368969b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_19
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 2191
+        width: 609
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e21ab9117a92674192ae3c6b887468d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_20
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 2191
+        width: 600
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bd3535cfac2cd4b89998ebdf4801ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_21
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 2183
+        width: 596
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2355f04c69e1a984b86182ef9d57845c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_22
+      rect:
+        serializedVersion: 2
+        x: 8325
+        y: 2191
+        width: 609
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640e856aeadf6443983d6db00e40d73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_23
+      rect:
+        serializedVersion: 2
+        x: 10247
+        y: 2191
+        width: 600
+        height: 1012
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e1dbdcddbec641b2fecb2a0e812de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_24
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1145
+        width: 567
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1770b977b96e9004580b6a442c8fc3f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_25
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1145
+        width: 573
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a265f82aa2e349bfd1e3977d9d231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_26
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 1145
+        width: 568
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dcb958ca685354fba631ffba4c47d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_27
+      rect:
+        serializedVersion: 2
+        x: 6410
+        y: 1145
+        width: 567
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32eb6d1708d758841a4db670cca8a23f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_28
+      rect:
+        serializedVersion: 2
+        x: 8323
+        y: 1145
+        width: 573
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ccc211e4595dd48a7d65c7c5007cf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_29
+      rect:
+        serializedVersion: 2
+        x: 10246
+        y: 1145
+        width: 568
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de166876264bbc429c9ffcb75772f24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_30
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 65
+        width: 567
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924ddf4fec592f14697b2d125822f742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_WALKsheettemp_31
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 65
+        width: 573
+        height: 1001
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cac26cc10e03746a1de5e518e4c56d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e5089e4fd8fcd874f92d84190757089b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

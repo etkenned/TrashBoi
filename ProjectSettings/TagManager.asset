@@ -9,6 +9,9 @@ TagManager:
   - Hazard
   - Win Area
   - Ladder
+  - EnemyTurnAround
+  - HiddingSpot
+  - Tramp
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Sceneary
   - 'Player '
   - Ladder
   - CheckPoints
