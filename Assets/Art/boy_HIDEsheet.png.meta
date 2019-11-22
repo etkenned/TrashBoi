@@ -1,0 +1,1233 @@
+fileFormatVersion: 2
+guid: ca5e94dbf48290d43a3a7ce5355c3c4d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boy_HIDEsheet_0
+    21300002: boy_HIDEsheet_1
+    21300004: boy_HIDEsheet_2
+    21300006: boy_HIDEsheet_3
+    21300008: boy_HIDEsheet_4
+    21300010: boy_HIDEsheet_5
+    21300012: boy_HIDEsheet_6
+    21300014: boy_HIDEsheet_7
+    21300016: boy_HIDEsheet_8
+    21300018: boy_HIDEsheet_9
+    21300020: boy_HIDEsheet_10
+    21300022: boy_HIDEsheet_11
+    21300024: boy_HIDEsheet_12
+    21300026: boy_HIDEsheet_13
+    21300028: boy_HIDEsheet_14
+    21300030: boy_HIDEsheet_15
+    21300032: boy_HIDEsheet_16
+    21300034: boy_HIDEsheet_17
+    21300036: boy_HIDEsheet_18
+    21300038: boy_HIDEsheet_19
+    21300040: boy_HIDEsheet_20
+    21300042: boy_HIDEsheet_21
+    21300044: boy_HIDEsheet_22
+    21300046: boy_HIDEsheet_23
+    21300048: boy_HIDEsheet_24
+    21300050: boy_HIDEsheet_25
+    21300052: boy_HIDEsheet_26
+    21300054: boy_HIDEsheet_27
+    21300056: boy_HIDEsheet_28
+    21300058: boy_HIDEsheet_29
+    21300060: boy_HIDEsheet_30
+    21300062: boy_HIDEsheet_31
+    21300064: boy_HIDEsheet_32
+    21300066: boy_HIDEsheet_33
+    21300068: boy_HIDEsheet_34
+    21300070: boy_HIDEsheet_35
+    21300072: boy_HIDEsheet_36
+    21300074: boy_HIDEsheet_37
+    21300076: boy_HIDEsheet_38
+    21300078: boy_HIDEsheet_39
+    21300080: boy_HIDEsheet_40
+    21300082: boy_HIDEsheet_41
+    21300084: boy_HIDEsheet_42
+    21300086: boy_HIDEsheet_43
+    21300088: boy_HIDEsheet_44
+    21300090: boy_HIDEsheet_45
+    21300092: boy_HIDEsheet_46
+    21300094: boy_HIDEsheet_47
+    21300096: boy_HIDEsheet_48
+    21300098: boy_HIDEsheet_49
+    21300100: boy_HIDEsheet_50
+    21300102: boy_HIDEsheet_51
+    21300104: boy_HIDEsheet_52
+    21300106: boy_HIDEsheet_53
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy_HIDEsheet_0
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 7560
+        width: 1063
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2e27df3b009fc4f83d510a8b3ab460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_1
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 7560
+        width: 1063
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77213d7e7a3994b9784ad7f3b21729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_2
+      rect:
+        serializedVersion: 2
+        x: 4144
+        y: 7588
+        width: 1050
+        height: 846
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b313436d79c0e044aa96ece6703df91e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_3
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 7588
+        width: 1050
+        height: 846
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c92dba37cb88eb49b33b50e1a0b07cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_4
+      rect:
+        serializedVersion: 2
+        x: 7950
+        y: 7796
+        width: 1181
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc162543321ec040b09894aa7a5f594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_5
+      rect:
+        serializedVersion: 2
+        x: 9870
+        y: 7796
+        width: 1181
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c3c86f33c181541a37d2b7aa302b0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_6
+      rect:
+        serializedVersion: 2
+        x: 12030
+        y: 8126
+        width: 994
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eae0f11232bb62428776748f4be45c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_7
+      rect:
+        serializedVersion: 2
+        x: 13950
+        y: 8126
+        width: 994
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b27eb6f47de1c94e85af701de6fb682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_8
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 7046
+        width: 532
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe651aa5e3673a345b397225780e264e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_9
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 7046
+        width: 532
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf816ea1d9e19545ac759b028049277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_10
+      rect:
+        serializedVersion: 2
+        x: 4826
+        y: 7046
+        width: 473
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd74485a4a62ca4e8adb5ac8782d45a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_11
+      rect:
+        serializedVersion: 2
+        x: 6746
+        y: 7046
+        width: 473
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b607dce356ef5e54aa8d79cd9ab168cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_12
+      rect:
+        serializedVersion: 2
+        x: 8756
+        y: 7054
+        width: 278
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee65df04553c6644bfaa383b6e7fec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_13
+      rect:
+        serializedVersion: 2
+        x: 10676
+        y: 7054
+        width: 278
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ea4892c485e149af294bb9934fe5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_14
+      rect:
+        serializedVersion: 2
+        x: 14719
+        y: 5974
+        width: 172
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f6110dde6e884d862c97ba019abea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_15
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 4894
+        width: 172
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dac714c9b77b14aa351f1732717d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_16
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 4887
+        width: 495
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160f80cb64fd524c836bbf50676a71e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_17
+      rect:
+        serializedVersion: 2
+        x: 4879
+        y: 4887
+        width: 495
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40814cfc91012204f803e22078b4516f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_18
+      rect:
+        serializedVersion: 2
+        x: 6690
+        y: 4890
+        width: 611
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f21024d43b524448aae5562e3efb7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_19
+      rect:
+        serializedVersion: 2
+        x: 8610
+        y: 4890
+        width: 611
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38af6e91b21c834cb514d50daaead95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_20
+      rect:
+        serializedVersion: 2
+        x: 10534
+        y: 4890
+        width: 607
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acb3b0d590d32e499029458e18dfc76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_21
+      rect:
+        serializedVersion: 2
+        x: 12454
+        y: 4888
+        width: 607
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be56980953501a4496eab0e59bb6257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_22
+      rect:
+        serializedVersion: 2
+        x: 14374
+        y: 4888
+        width: 607
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702dd4898774dc048852aabea2ca7943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_23
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 3808
+        width: 607
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5a81304c7696a4bbfd9c4b44de8a33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_24
+      rect:
+        serializedVersion: 2
+        x: 2854
+        y: 3808
+        width: 607
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb1dc7d36334ab41aac3ffff4756e64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_25
+      rect:
+        serializedVersion: 2
+        x: 4774
+        y: 3808
+        width: 607
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9dbd10dd500f84c89429c53bef69a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_26
+      rect:
+        serializedVersion: 2
+        x: 6694
+        y: 3808
+        width: 607
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd7b5b75af84e4fab33cf75fa582ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_27
+      rect:
+        serializedVersion: 2
+        x: 8614
+        y: 3808
+        width: 607
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09add0672f0e8204c97cec34f3cde84e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_28
+      rect:
+        serializedVersion: 2
+        x: 10534
+        y: 3810
+        width: 607
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8996f3a7a15eaa34a82c829d754cd97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_29
+      rect:
+        serializedVersion: 2
+        x: 12326
+        y: 3810
+        width: 735
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b759c88fa08544faabebe45f4a0c66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_30
+      rect:
+        serializedVersion: 2
+        x: 14246
+        y: 3810
+        width: 735
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f2d84f7645bf346a2a20ed9dc84438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_31
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2569
+        width: 791
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81367debab9f43408e59e9176543b21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_32
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2569
+        width: 791
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067796eec28a4144e9a2cee0183119f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_33
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaada68211a82f4408501c1b15277e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_34
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be8a99fd6246904fa3c563ed6cf2241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_35
+      rect:
+        serializedVersion: 2
+        x: 8419
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff3137916dfe114487676d08ee5e5d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_36
+      rect:
+        serializedVersion: 2
+        x: 10339
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa6b8d99e036348ad0fbf3ba9ba6b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_37
+      rect:
+        serializedVersion: 2
+        x: 12259
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3cbe931bca37646b0548debf64107d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_38
+      rect:
+        serializedVersion: 2
+        x: 14179
+        y: 2569
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a47c9ab952ae374ab35e231d0d411a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_39
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1489
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c7aef8c5cbb749b3b92684448c927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_40
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1489
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d7f55be084b5044a7cfdf713a3da99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_41
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 1489
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1777b5208521ef4d8ce3d4836540381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_42
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 1489
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa017411729c75c4d8c8d060669147af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_43
+      rect:
+        serializedVersion: 2
+        x: 8419
+        y: 1489
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd48a10b674987479a1f2b222464db4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_44
+      rect:
+        serializedVersion: 2
+        x: 10369
+        y: 1489
+        width: 772
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e202dc1ab2ed74897b10d41e8fd174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_45
+      rect:
+        serializedVersion: 2
+        x: 12289
+        y: 1489
+        width: 772
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40029c929db4b24983e8badcb5b5b30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_46
+      rect:
+        serializedVersion: 2
+        x: 14186
+        y: 1496
+        width: 795
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427b5c9f240d9c4b8f1144a9bc06098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_47
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 416
+        width: 795
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbfd04e2b74ba247b3a4de8d9134c8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_48
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 409
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628510886ac3584491d2c74666c18e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_49
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 409
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77eed51f6243bf4da5531b605d90b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_50
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 409
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8397c134adf1546b8fc4137a877132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_51
+      rect:
+        serializedVersion: 2
+        x: 8419
+        y: 409
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92059d9543e7146855e626bdf49e48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_52
+      rect:
+        serializedVersion: 2
+        x: 10339
+        y: 409
+        width: 802
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b9752398bd564587e7696ede42f12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boy_HIDEsheet_53
+      rect:
+        serializedVersion: 2
+        x: 12166
+        y: 6923
+        width: 782
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e074a849d1d5c4a8f6694567965d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0173e510a7408234abe9cc27659ae140
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

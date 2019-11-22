@@ -9,7 +9,6 @@ public class Turotial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        HungerMeter.pauseMeter = true;
         TipOpen = false;
         Time.timeScale = 1;
         trashTip.gameObject.SetActive (false);

@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     public CharacterController2D controller; // references the character controller script from GitHub
-    public Animator animator;
+    public Animator animator; // animator for the player
     public static float runSpeed = 40f; //sets the players movement speed
     public Rigidbody2D rb; //uses the ridgid body of the player
     float horizontalMove = 0f; //stores the direction the player is facing
@@ -16,22 +16,25 @@ public class PlayerMovement : MonoBehaviour
     public bool climbing = false;// is the player climning?
     public float distance;// distance of raycast for detecting ladder
     public LayerMask isLadder;//check the ladder layer in unity
-    public float climbSpeed;
-    public Vector3 hiddingLocation; // where to teleport the player
+    public float climbSpeed; // how fast the player can climb
+    public Vector2 hiddingLocation; // where to teleport the player
     public Vector3 climbingLock; // used to lock the player to the ladder they are climbing
     public static Vector3 respawnPoint;
     public static Vector3 startingSpawn;
     public static bool isHidden; // the player is hidden and cannot be damaged by an enemy
     public static bool Collected = false;// hve you picked up a power up
-    public static string powerUpType;
-    private float powerTimerSp;
-    private float hurtTimer;
+    public static string powerUpType; //which power-up got picked up
+    private float powerTimerSp; // how long the speed power-up lasts
+    private float hurtTimer; // how long the player is "hurt" for
     private float Timer = 0f;
-    public static bool disableInput;
+    public static bool disableInput; // used for taking away a player's ability to move
+    public AudioClip scaredSound; // scream from the trash boy
+    public AudioSource scaredSource; // where the sound is played from
     // Update is called once per frame
 
     void Start()
     {
+       scaredSource.clip = scaredSound; // sets the clip to play
        respawnPoint = startingSpawn; // sets the respawn point ot the initial spawn
        Collected = false;
        disableInput = false;
@@ -40,6 +43,12 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
       animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); // sets the animator speed variable to the speed of the player so the animator knows when the plaer is moving and can play the run animaition
+
+      if(Mathf.Abs(horizontalMove) >= .01f && CharacterController2D.m_Grounded == true) // is the player walking along the ground?
+      {
+        //use this for playing a noise for player walking
+      }
+
       Timer += Time.deltaTime;// records how many seconds the level is being run for
 
       if(powerTimerSp < Timer) // when speed power up runs out
@@ -49,6 +58,7 @@ public class PlayerMovement : MonoBehaviour
       if(hurtTimer < Timer)
       {
         animator.SetBool("isHurt", false); // the boy is not hurt
+        HungerMeter.takeDamage = false; // used for hunger meter changing color
         disableInput = false; // give control back to the player
       }
 
@@ -109,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
       }
       if(other.tag == "Ladder") // while the player is against a ladder object
       {
-        if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) //is the up arrow or W is pressed> attach to ladder
+        if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) //is the up arrow or W is pressed> attach to ladder
         {
           climbing = true;
           animator.SetBool("isClimbing", true); // tells the animator that the player is climbing
@@ -129,27 +139,33 @@ public class PlayerMovement : MonoBehaviour
       }
       if(other.tag == "HiddingSpot") // the player can hids from enemies in boxes with this tag
       {
-        if(Input.GetKeyDown(KeyCode.E) && isHidden == false) // activation key is pressed while near the box
+        if(Input.GetKey(KeyCode.E) && isHidden == false && Mathf.Abs(horizontalMove) <= .01) // activation key is pressed while near the box, cannot enter wile moveing
         {
           isHidden = true;
+          rb.gravityScale = 0;// allows the player to me moved to the right spot above the box
           hiddingLocation = other.transform.position; // saves the players current position
-          hiddingLocation.z += 5f;
+          animator.SetBool("enterBox", true);// tells animator to play enter box animaition
+          hiddingLocation.y += .15f; // adjusts for the box's height
           transform.position = hiddingLocation;
          // move the player behind the scene and disable mvement so you an play the animation
         }
-        else if(Input.GetKey(KeyCode.D) && isHidden == true || Input.GetKey(KeyCode.A) && isHidden == true || Input.GetKey(KeyCode.LeftArrow) && isHidden == true || Input.GetKey(KeyCode.RightArrow) && isHidden == true || Input.GetKeyDown(KeyCode.E) && isHidden == true) // get out of the box by moveing
+        else if(Input.GetKey(KeyCode.D) && isHidden == true || Input.GetKey(KeyCode.A) && isHidden == true || Input.GetKey(KeyCode.LeftArrow) && isHidden == true || Input.GetKey(KeyCode.RightArrow) && isHidden == true) // get out of the box by moveing
         {
+          animator.SetBool("enterBox", false);// tells animator to play exit box animaition
           isHidden = false; // can be damaged now by enemies
-          hiddingLocation.z = 0f;
+          rb.gravityScale = 3;// returns gravity to normal
+          //hiddingLocation.z = 0f;
           transform.position = hiddingLocation;
-          rb.AddForce(new Vector2(0f, 400f)); // pops the trash boi out of the box
+          //rb.AddForce(new Vector2(0f, 400f)); // pops the trash boi out of the box
         }
         else if(Input.GetKey(KeyCode.Space) && isHidden == true) // will not give the player a jump boost to pop them out
         {
+          animator.SetBool("enterBox", false);// tells animator to play exit box animaition
           isHidden = false; // can be damaged now by enemies
-          hiddingLocation.z = 0f;
+          rb.gravityScale = 3;// returns gravity to normal
+          //hiddingLocation.z = 0f;
           transform.position = hiddingLocation;
-          rb.AddForce(new Vector2(0f, 40f));
+          //rb.AddForce(new Vector2(0f, 40f));
         }
 
       }
@@ -169,7 +185,10 @@ public class PlayerMovement : MonoBehaviour
       }
       if(other.tag == "HiddingSpot")
       {
+        animator.SetBool("enterBox", false);// tells animator to play exit box animaition
         isHidden = false;
+        rb.gravityScale = 3;// returns gravity to normal
+
       }
     }
 
@@ -179,8 +198,10 @@ public class PlayerMovement : MonoBehaviour
     {
       if(other.tag == "Hazard" && isHidden == false)
       {
+        HungerMeter.takeDamage = true;
         hurtTimer = Timer + .5f; // the player is hurt for 1 second
         animator.SetBool("isHurt", true); // tells the animator the boy got injured
+        scaredSource.Play(); // plays a sound for getting hurt
         if(transform.position.x < other.transform.position.x)
         {
           rb.AddForce(new Vector2(-1200f, 400f)); // pushes the player back to the left when they collide with an enemy
@@ -215,7 +236,6 @@ public class PlayerMovement : MonoBehaviour
       if(type == "speed")
       {
         runSpeed += 20f; // boosts the speed of the player
-        Debug.Log("run faster");
         powerTimerSp = Timer + 5; // in 5 seconds from now the power up will run out
         MenuManager.colSpeed = false; // tells menu manager to turn off the speed up UI
       }
