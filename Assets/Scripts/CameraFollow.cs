@@ -14,11 +14,10 @@ public class CameraFollow : MonoBehaviour
         offset = transform.position - player.transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    // FixedUpdate is called once per physics frame
+    void FixedUpdate()
     {
-        transform.position = player.transform.position + offset;
-
+        this.transform.position = Vector3.Lerp(transform.position, player.transform.position + offset, 0.2f);
     }
     /*
     void OnTriggerStay2D(Collider2D other)
