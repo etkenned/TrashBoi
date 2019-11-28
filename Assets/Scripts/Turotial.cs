@@ -22,12 +22,16 @@ public class Turotial : MonoBehaviour
         //TipOpen = false;
         Time.timeScale = 1;
         trashTip.gameObject.SetActive (false);
+        MenuManager.isPaused = false;
+        MenuManager.tipOpen = false;
       }
     }
     void OnTriggerEnter2D(Collider2D other)// if the player collides with the tutorial collider
     {
       if(TipOpen == false)
       {
+        MenuManager.isPaused = true;
+        MenuManager.tipOpen = true;
         TipOpen = true; // the tip window is up
         trashTip.gameObject.SetActive (true); // shows the tip on screen
         Time.timeScale = 0; // pauses time so the player can read the tutorial

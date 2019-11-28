@@ -15,6 +15,7 @@ public class MenuManager : MonoBehaviour
   public static bool colShield = false;
   public static bool colHeart = false;
   public static bool isPaused = false;
+  public static bool tipOpen = false;
   public Text timerText_pause;
   public Text timerText_end;
   public float levelTimeSec = 0f;
@@ -31,6 +32,7 @@ public class MenuManager : MonoBehaviour
       loseMenu.gameObject.SetActive (false);// at the start of the level the lose creen is turned off
       pauseMenu.gameObject.SetActive (false);// at the start of the level the pause screen is turned off
       TurnOffPowerUps();
+      isPaused = false;
     }
 
     // Update is called once per frame
@@ -68,7 +70,7 @@ public class MenuManager : MonoBehaviour
       {
         PauseGame();
       }
-      else if(Input.GetKeyDown(KeyCode.Escape) && isPaused == true)// if escape is pressed and the game is paused
+      else if(Input.GetKeyDown(KeyCode.Escape) && isPaused == true && !tipOpen)// if escape is pressed and the game is paused
       {
         UnPauseGame();
       }
