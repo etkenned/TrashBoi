@@ -132,6 +132,10 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
+    public void Jump()
+    {
+        m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+    }
 
 	private void Flip()
 	{

@@ -76,6 +76,13 @@ public class PlayerMovement : MonoBehaviour
         }
         if(climbing == true) // is already on the lader so can move freely
         {
+          if (Input.GetButtonDown("Jump")) // the player tries to jump off of the ladder
+          {
+            rb.gravityScale = 3; //Resets gravity to normal
+            climbing = false;
+            animator.SetBool("isJumping", true);
+            controller.Jump();
+          }
           verticalMove = Input.GetAxisRaw("Vertical");
           rb.velocity = new Vector2(rb.velocity.x, verticalMove * climbSpeed);
           if(verticalMove < 0 || verticalMove > 0)
