@@ -14,7 +14,7 @@ public class MenuManager : MonoBehaviour
   public static bool colJump = false;
   public static bool colShield = false;
   public static bool colHeart = false;
-  bool isPaused = false;
+  public static bool isPaused = false;
   public Text timerText_pause;
   public Text timerText_end;
   public float levelTimeSec = 0f;

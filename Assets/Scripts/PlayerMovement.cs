@@ -62,41 +62,42 @@ public class PlayerMovement : MonoBehaviour
         disableInput = false; // give control back to the player
       }
 
-      if(disableInput == false)
+      if(!MenuManager.isPaused)
       {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed; //get input for movement as a number value ### Ex: [left arrow] = -1 and [right arrow] = 1
-      }
-
-
-      if(Input.GetButtonDown("Jump")) // the player tries to jump
-      {
-        animator.SetBool("isJumping", true);
-        jump = true;
-      }
-      if(climbing == true) // is already on the lader so can move freely
-      {
-        verticalMove = Input.GetAxisRaw("Vertical");
-        rb.velocity = new Vector2(rb.velocity.x, verticalMove * climbSpeed);
-        if(verticalMove < 0 || verticalMove > 0)
+        if(disableInput == false)
         {
-          animator.SetBool("Velocity", true);// tells the animator that the player is moving around the ladder
+          horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed; //get input for movement as a number value ### Ex: [left arrow] = -1 and [right arrow] = 1
         }
-        else
+
+        if(Input.GetButtonDown("Jump")) // the player tries to jump
         {
-          animator.SetBool("Velocity", false);
+          animator.SetBool("isJumping", true);
+          jump = true;
         }
-        rb.gravityScale = 0;//stops the player from falling down while on the ladder
-      }
+        if(climbing == true) // is already on the lader so can move freely
+        {
+          verticalMove = Input.GetAxisRaw("Vertical");
+          rb.velocity = new Vector2(rb.velocity.x, verticalMove * climbSpeed);
+          if(verticalMove < 0 || verticalMove > 0)
+          {
+            animator.SetBool("Velocity", true);// tells the animator that the player is moving around the ladder
+          }
+          else
+          {
+            animator.SetBool("Velocity", false);
+          }
+            rb.gravityScale = 0;//stops the player from falling down while on the ladder
+        }
+        if(Input.GetKeyDown(KeyCode.Q) && Collected == true) // pressing the power up key when you have a power up
+        {
+          ActivatePower(powerUpType);
+          Collected = false;
+        }
 
-      if(Input.GetKeyDown(KeyCode.Q) && Collected == true) // pressing the power up key when you have a power up
-      {
-        ActivatePower(powerUpType);
-        Collected = false;
-      }
-
-      if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) // if you move left or right on the ladder you fall off
-      {
-        climbing = false;
+        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) // if you move left or right on the ladder you fall off
+        {
+          climbing = false;
+        }
       }
 
     }
