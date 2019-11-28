@@ -19,7 +19,7 @@ public class Turotial : MonoBehaviour
     {
       if(Input.GetKey(KeyCode.E) && TipOpen == true)
       {
-        //TipOpen = false;
+        TipOpen = false;
         Time.timeScale = 1;
         trashTip.gameObject.SetActive (false);
         MenuManager.isPaused = false;
