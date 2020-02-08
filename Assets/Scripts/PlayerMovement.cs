@@ -112,7 +112,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()// move the player character
     { //fixedDeltaTime ensures that the player speed is always the same across all platforms and systems
-        Debug.Log(horizontalMove);
       if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup")) {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
       } else {

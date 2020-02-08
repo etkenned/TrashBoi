@@ -24,6 +24,7 @@ public class Turotial : MonoBehaviour
         trashTip.gameObject.SetActive (false);
         MenuManager.isPaused = false;
         MenuManager.tipOpen = false;
+        Destroy(gameObject);
       }
     }
     void OnTriggerEnter2D(Collider2D other)// if the player collides with the tutorial collider
