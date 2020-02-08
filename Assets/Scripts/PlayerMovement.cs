@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-      animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); // sets the animator speed variable to the speed of the player so the animator knows when the plaer is moving and can play the run animaition
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); // sets the animator speed variable to the speed of the player so the animator knows when the plaer is moving and can play the run animaition
 
       if(Mathf.Abs(horizontalMove) >= .01f && CharacterController2D.m_Grounded == true) // is the player walking along the ground?
       {
@@ -112,7 +112,12 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()// move the player character
     { //fixedDeltaTime ensures that the player speed is always the same across all platforms and systems
-      controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
+        Debug.Log(horizontalMove);
+      if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup")) {
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
+      } else {
+        controller.Move(0f, false, false);
+      }
       jump = false; //prevents the player from jumping forever
       animator.SetBool("isJumping", false); // the player is not jumping anymore
     }
@@ -241,7 +246,8 @@ public class PlayerMovement : MonoBehaviour
 
     void ActivatePower(string type)
     {
-      if(type == "speed")
+      animator.SetTrigger("Powerup");
+      if (type == "speed")
       {
         runSpeed += 20f; // boosts the speed of the player
         powerTimerSp = Timer + 5; // in 5 seconds from now the power up will run out

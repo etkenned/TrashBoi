@@ -2094,16 +2094,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trashboy_HUD
       objectReference: {fileID: 0}
-    - target: {fileID: 2081475404853747509, guid: f936f026a6450fa4cbaee05294bf280c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2081475404133065312, guid: f936f026a6450fa4cbaee05294bf280c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2081475404363524529, guid: f936f026a6450fa4cbaee05294bf280c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2208,6 +2198,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081475404853747509, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081475404133065312, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2081475403739663318, guid: f936f026a6450fa4cbaee05294bf280c,
         type: 3}
