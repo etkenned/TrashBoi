@@ -159,6 +159,7 @@ public class PlayerMovement : MonoBehaviour
           animator.SetBool("enterBox", true);// tells animator to play enter box animaition
           hiddingLocation.y += .15f; // adjusts for the box's height
           transform.position = hiddingLocation;
+          rb.velocity = new Vector2(0f, 0f);
          // move the player behind the scene and disable mvement so you an play the animation
         }
         else if(Input.GetKey(KeyCode.D) && isHidden == true || Input.GetKey(KeyCode.A) && isHidden == true || Input.GetKey(KeyCode.LeftArrow) && isHidden == true || Input.GetKey(KeyCode.RightArrow) && isHidden == true) // get out of the box by moveing
