@@ -286,6 +286,81 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8695317345868960139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &208249524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208249523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6a79f455e8f884b917096f8d141eb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 208249529}
+  characterController: {fileID: 208249533}
+  playerCollider: {fileID: 208249530}
+  hungerMeter: {fileID: 208249528}
+  brothers:
+  - runSpeed: 40
+    climbSpeed: 3
+    jumpForce: 400
+    airControl: 1
+    maxAirJumps: 0
+    playerSize: 2.518151
+    happy: {fileID: 21300000, guid: 2f2dfc050198df345bb6d43fabd0324e, type: 3}
+    hungry: {fileID: 21300000, guid: 7e126bf9b4e60ff4c80967e9eb990267, type: 3}
+  - runSpeed: 400
+    climbSpeed: 6
+    jumpForce: 500
+    airControl: 0
+    maxAirJumps: 5
+    playerSize: 2.518151
+    happy: {fileID: 21300000, guid: 78c19df3c107a4c44bdf58124eceb13f, type: 3}
+    hungry: {fileID: 21300000, guid: 54b69ebb605aef7499bdcb0ca98cf8fb, type: 3}
+--- !u!114 &208249528 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8695317345799140144, guid: e73803de1cda127438f3b4400ab3f3da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8695317345868960139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208249523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7a437a30e31d5408382866ef76ad65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &208249529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8695317345799140156, guid: e73803de1cda127438f3b4400ab3f3da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8695317345868960139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208249523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58d686e474b0f9f41a39c9e90d87d4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &208249530 stripped
+CircleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8695317345799140147, guid: e73803de1cda127438f3b4400ab3f3da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8695317345868960139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &208249533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8695317345799140159, guid: e73803de1cda127438f3b4400ab3f3da,
+    type: 3}
+  m_PrefabInstance: {fileID: 8695317345868960139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208249523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4099151756b9845a284d28d2538b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &230592063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2094,6 +2169,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trashboy_HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 2081475404853747509, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081475404133065312, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2081475404363524529, guid: f936f026a6450fa4cbaee05294bf280c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2199,16 +2284,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2081475404853747509, guid: f936f026a6450fa4cbaee05294bf280c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2081475404133065312, guid: f936f026a6450fa4cbaee05294bf280c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2081475403739663318, guid: f936f026a6450fa4cbaee05294bf280c,
         type: 3}
       propertyPath: m_IsActive
@@ -2218,6 +2293,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PowerUpBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081475404687833585, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2081475405743672825, guid: f936f026a6450fa4cbaee05294bf280c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f936f026a6450fa4cbaee05294bf280c, type: 3}
@@ -3622,6 +3707,16 @@ PrefabInstance:
       propertyPath: HM12_Red
       value: 
       objectReference: {fileID: 620371073}
+    - target: {fileID: 8695317345799140159, guid: e73803de1cda127438f3b4400ab3f3da,
+        type: 3}
+      propertyPath: airControl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8695317345799140159, guid: e73803de1cda127438f3b4400ab3f3da,
+        type: 3}
+      propertyPath: maxAirJumps
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e73803de1cda127438f3b4400ab3f3da, type: 3}
 --- !u!1001 &8757990012512969210
