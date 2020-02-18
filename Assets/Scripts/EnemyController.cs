@@ -11,23 +11,25 @@ public class EnemyController : MonoBehaviour
   public static bool movingRight = false;
   private Vector3 startingPositionEnemy;// where the enemy spawns at the start of the level
   public float moveDistance; // how far the enemy moves back and forth
-  public static bool seePlayer; // the enemy can see the player, the enemy will stop moving if they can see the player
+
+    private Animator animator;
+
     void Start()
     {
       enemySprite = GetComponent <SpriteRenderer> ();
       startingPositionEnemy = transform.position;
-      seePlayer = false;
+      animator = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
     {
 
-      if(movingRight == true && seePlayer == false)
+      if(movingRight == true && animator.GetCurrentAnimatorStateInfo(0).IsName("Enemy_Walking"))
       {
         enemySprite.flipX = true; //flips the sprite to the right
         transform.Translate (Vector2.right * speed * Time.deltaTime); //moves to the right
       }
-      else if(movingRight == false && seePlayer == false)
+      else if(movingRight == false && animator.GetCurrentAnimatorStateInfo(0).IsName("Enemy_Walking"))
       {
         enemySprite.flipX = false; // flips the sprite to the left
         transform.Translate (-Vector2.right * speed * Time.deltaTime); // moves to the left

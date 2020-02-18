@@ -25,14 +25,12 @@ public class EnemyVision : MonoBehaviour
         //playerLocation = other.transform.position; // sets the players position to a vector object
         if(EnemyController.movingRight == true && other.transform.position.x > transform.position.x && other.transform.position.x < transform.position.x + 5 && PlayerMovement.isHidden == false)
         {
-
           if(playedSound == false)
           {
             animatorEnemy.SetBool("isAlert", true);
             AlertSource.Play(); // playes the sound
             playedSound = true; // dont play the sound more than once
           }
-          EnemyController.seePlayer = true; // if the player is 5 uitys to the right of the enemy while the enemy is facing right and the player is not hidden
         }
         else if(EnemyController.movingRight == false && other.transform.position.x < transform.position.x && other.transform.position.x > transform.position.x - 5 && PlayerMovement.isHidden == false)
         {
@@ -42,12 +40,10 @@ public class EnemyVision : MonoBehaviour
             AlertSource.Play(); // playes the sound
             playedSound = true; // dont play the sound more than once
           }
-          EnemyController.seePlayer = true; // if the player is 5 uitys to the left of the enemy while the enemy is facing left and the player is not hidden
         }
         else
         {
           animatorEnemy.SetBool("isAlert", false);
-          EnemyController.seePlayer = false;
           playedSound = false; // dont play the sound more than once
         }
       }
@@ -55,7 +51,6 @@ public class EnemyVision : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
       animatorEnemy.SetBool("isAlert", false);
-      EnemyController.seePlayer = false;
       playedSound = false; // dont play the sound more than once
     }
 
