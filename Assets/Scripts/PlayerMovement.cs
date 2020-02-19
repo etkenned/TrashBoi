@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     public static bool disableInput; // used for taking away a player's ability to move
     public AudioClip scaredSound; // scream from the trash boy
     public AudioSource scaredSource; // where the sound is played from
+    public static bool Slowed;
     // Update is called once per frame
 
     void Start()
@@ -50,6 +51,15 @@ public class PlayerMovement : MonoBehaviour
       }
 
       Timer += Time.deltaTime;// records how many seconds the level is being run for
+
+      if(Slowed)
+      {
+        animator.SetBool("InCement", true);
+      }
+      else
+      {
+        animator.SetBool("InCement", false);
+      }
 
       if(powerTimerSp < Timer) // when speed power up runs out
       {
