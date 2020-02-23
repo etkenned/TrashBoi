@@ -31,10 +31,12 @@ public class PlayerMovement : MonoBehaviour
     public AudioClip scaredSound; // scream from the trash boy
     public AudioSource scaredSource; // where the sound is played from
     public static bool Slowed;
-    // Update is called once per frame
 
+    private CharacterController2D cc2d;
+    // Update is called once per frame
     void Start()
     {
+        cc2d = GetComponent<CharacterController2D>();
        scaredSource.clip = scaredSound; // sets the clip to play
        respawnPoint = startingSpawn; // sets the respawn point ot the initial spawn
        Collected = false;
@@ -70,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isHurt", false); // the boy is not hurt
         HungerMeter.takeDamage = false; // used for hunger meter changing color
         disableInput = false; // give control back to the player
+        cc2d.airControl = true;
       }
 
       if(!MenuManager.isPaused)
@@ -224,6 +227,7 @@ public class PlayerMovement : MonoBehaviour
         HungerMeter.takeDamage = true;
         hurtTimer = Timer + .5f; // the player is hurt for 1 second
         animator.SetBool("isHurt", true); // tells the animator the boy got injured
+        cc2d.airControl = false;
         scaredSource.Play(); // plays a sound for getting hurt
         if(transform.position.x < other.transform.position.x)
         {
