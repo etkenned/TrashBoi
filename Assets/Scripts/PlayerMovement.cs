@@ -228,6 +228,7 @@ public class PlayerMovement : MonoBehaviour
         hurtTimer = Timer + .5f; // the player is hurt for 1 second
         animator.SetBool("isHurt", true); // tells the animator the boy got injured
         cc2d.airControl = false;
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         scaredSource.Play(); // plays a sound for getting hurt
         if(transform.position.x < other.transform.position.x)
         {
