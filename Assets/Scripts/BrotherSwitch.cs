@@ -16,6 +16,7 @@ public class BrotherSwitch : MonoBehaviour {
         public Sprite happy;
         public Sprite hungry;
     }
+    public GameObject waitingBoiPrefab;
 
     public PlayerMovement playerMovement;
     public CharacterController2D characterController;
@@ -41,7 +42,6 @@ public class BrotherSwitch : MonoBehaviour {
             hungerMeter.hungryFace.GetComponent<Image>().sprite = value.hungry;
         }
     }
-
     private int currentBrotherIndex;
 
     void Start() {
@@ -55,9 +55,15 @@ public class BrotherSwitch : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if(Input.GetKeyDown(KeyCode.C)) {
-            Debug.Log("BROTHER SWITCH");
-            CurrentBrother = brothers[++currentBrotherIndex % brothers.Length];
+        if(Input.GetKeyDown(KeyCode.C) && currentBrotherIndex == 0) {
+            SwitchBrother();
+            GameObject waitingBoi = Instantiate(waitingBoiPrefab, transform.parent);
+            waitingBoi.transform.position = transform.position;
         }
+    }
+
+    public void SwitchBrother() {
+        currentBrotherIndex = ++currentBrotherIndex % brothers.Length;
+        CurrentBrother = brothers[currentBrotherIndex];
     }
 }
