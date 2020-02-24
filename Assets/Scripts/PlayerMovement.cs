@@ -227,16 +227,18 @@ public class PlayerMovement : MonoBehaviour
         HungerMeter.takeDamage = true;
         hurtTimer = Timer + .5f; // the player is hurt for 1 second
         animator.SetBool("isHurt", true); // tells the animator the boy got injured
+        //Raising position just a little bit to stop grounded physics from messing with the forces
+        transform.position = transform.position + new Vector3(0, 0.1f, 0);
         cc2d.airControl = false;
         GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         scaredSource.Play(); // plays a sound for getting hurt
         if(transform.position.x < other.transform.position.x)
         {
-          rb.AddForce(new Vector2(-1200f, 400f)); // pushes the player back to the left when they collide with an enemy
+          rb.AddForce(new Vector2(-800f, 300f)); // pushes the player back to the left when they collide with an enemy
         }
         else//
         {
-          rb.AddForce(new Vector2(1200f, 400f)); // pushes the player back when they collide with an enemy
+          rb.AddForce(new Vector2(800f, 300f)); // pushes the player back when they collide with an enemy
         }
 
         //disableInput = true; // turns off player input for a bit so they cant run around
