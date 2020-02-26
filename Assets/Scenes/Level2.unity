@@ -5740,6 +5740,10 @@ PrefabInstance:
       propertyPath: moveDistance
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 229761690, guid: bf554f5c179c9f74688d0a1c98913632, type: 3}
+      propertyPath: moveDistance
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf554f5c179c9f74688d0a1c98913632, type: 3}
 --- !u!1 &1289612557
@@ -8043,6 +8047,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5463597568996340759, guid: bf554f5c179c9f74688d0a1c98913632,
         type: 3}
+      propertyPath: moveDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 229761690, guid: bf554f5c179c9f74688d0a1c98913632, type: 3}
       propertyPath: moveDistance
       value: 10
       objectReference: {fileID: 0}
