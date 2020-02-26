@@ -8,14 +8,26 @@ public class EnemyVision : MonoBehaviour
     public AudioClip AlertClip;
     public AudioSource AlertSource;
     private bool playedSound = false;
+    private Vector3 startingPositionEnemy;// where the enemy spawns at the start of the level
+    private bool movingRight = false;
+    public float moveDistance; // how far the enemy moves back and forth
     // Update is called once per frame
     void Start()
     {
+      startingPositionEnemy = transform.position;
       AlertSource.clip = AlertClip;
     }
+
     void Update()
     {
-
+      if(transform.position.x >= startingPositionEnemy.x + moveDistance)
+      {
+        movingRight = false;
+      }
+      else if(transform.position.x <= startingPositionEnemy.x - moveDistance)
+      {
+        movingRight = true;
+      }
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -23,7 +35,7 @@ public class EnemyVision : MonoBehaviour
       if(other.tag == "Player")
       {
         //playerLocation = other.transform.position; // sets the players position to a vector object
-        if(EnemyController.movingRight == true && other.transform.position.x > transform.position.x && other.transform.position.x < transform.position.x + 5 && PlayerMovement.isHidden == false)
+        if(movingRight == true && other.transform.position.x > transform.position.x && other.transform.position.x < transform.position.x + 5 && PlayerMovement.isHidden == false) // if the player is standing close enough to the right side of the enemy while they are facing the right
         {
           if(playedSound == false)
           {
@@ -32,7 +44,7 @@ public class EnemyVision : MonoBehaviour
             playedSound = true; // dont play the sound more than once
           }
         }
-        else if(EnemyController.movingRight == false && other.transform.position.x < transform.position.x && other.transform.position.x > transform.position.x - 5 && PlayerMovement.isHidden == false)
+        else if(movingRight == false && other.transform.position.x < transform.position.x && other.transform.position.x > transform.position.x - 5 && PlayerMovement.isHidden == false)
         {
           if(playedSound == false)
           {

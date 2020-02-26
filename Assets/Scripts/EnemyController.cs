@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
   private SpriteRenderer enemySprite;
   public float speed;
-  public static bool movingRight = false;
+  public bool movingRight = false;
   private Vector3 startingPositionEnemy;// where the enemy spawns at the start of the level
   public float moveDistance; // how far the enemy moves back and forth
 
@@ -34,6 +34,7 @@ public class EnemyController : MonoBehaviour
         enemySprite.flipX = false; // flips the sprite to the left
         transform.Translate (-Vector2.right * speed * Time.deltaTime); // moves to the left
       }
+
       if(transform.position.x >= startingPositionEnemy.x + moveDistance)
       {
         movingRight = false;
@@ -42,6 +43,8 @@ public class EnemyController : MonoBehaviour
       {
         movingRight = true;
       }
+
+
 
     }
 

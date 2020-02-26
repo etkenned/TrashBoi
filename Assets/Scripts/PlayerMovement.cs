@@ -234,11 +234,11 @@ public class PlayerMovement : MonoBehaviour
         scaredSource.Play(); // plays a sound for getting hurt
         if(transform.position.x < other.transform.position.x)
         {
-          rb.AddForce(new Vector2(-800f, 300f)); // pushes the player back to the left when they collide with an enemy
+          rb.AddForce(new Vector2(-300f, 300f)); // pushes the player back to the left when they collide with an enemy
         }
         else//
         {
-          rb.AddForce(new Vector2(800f, 300f)); // pushes the player back when they collide with an enemy
+          rb.AddForce(new Vector2(300f, 300f)); // pushes the player back when they collide with an enemy
         }
 
         //disableInput = true; // turns off player input for a bit so they cant run around

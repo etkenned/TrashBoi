@@ -39,8 +39,8 @@ public class HazardControler : MonoBehaviour
     {
       if(other.tag == "Player" && isSlowing == true)
       {
-        PlayerMovement.Slowed = true;// used for the animator to tell when to use cement walking animaiton 
-        PlayerMovement.runSpeed = 10f; // sets the players speed to a slower amount
+        PlayerMovement.Slowed = true;// used for the animator to tell when to use cement walking animaiton
+        PlayerMovement.runSpeed -= 20f; // sets the players speed to a slower amount
       }
       if(other.tag == "Player" && PlayerMovement.isHidden == false)
       {
@@ -56,7 +56,7 @@ public class HazardControler : MonoBehaviour
       if(other.tag == "Player" && isSlowing == true) // only affects the hazards that slow the player
       {
         PlayerMovement.Slowed = false;
-        PlayerMovement.runSpeed = 40f; // resets the players speed to what it originaly was
+        PlayerMovement.runSpeed += 20f; // resets the players speed to what it originaly was
       }
     }
 }
