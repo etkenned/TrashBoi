@@ -125,7 +125,8 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()// move the player character
     { //fixedDeltaTime ensures that the player speed is always the same across all platforms and systems
-      if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Dumpster Finale")) {
+        //TODO: Clean this up with a canMove boolean instead
+      if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Dumpster Finale") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player Death")) {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
       } else {
         controller.Move(0f, false, false);

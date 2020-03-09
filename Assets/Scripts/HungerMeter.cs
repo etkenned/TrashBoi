@@ -13,6 +13,8 @@ public class HungerMeter : MonoBehaviour
   public static float hungerLevelMax = 24f; //maxmum hunger level, subject to change
   public static float hungerLevel; //How big the full stomach is for trashboi // this is pubic so multiple scripts can acess it.
 
+  private bool playerDying;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +37,8 @@ public class HungerMeter : MonoBehaviour
       HM10.gameObject.SetActive (true);
       HM11.gameObject.SetActive (true);
       HM12.gameObject.SetActive (true);
-      //pauseMeter = false;
+        //pauseMeter = false;
+      playerDying = false;
     }
 
     // Update is called once per frame
@@ -93,32 +96,51 @@ public class HungerMeter : MonoBehaviour
           happyFace.gameObject.SetActive (false);
           hungryFace.gameObject.SetActive (true);
         }
-        if(hungerLevel < 0)// runs out of meter
+        if(hungerLevel < 0 && !playerDying)// runs out of meter
         {
           lives -= 1; // lose one life
           isDead = true; // the player has died so the collectables need to be reset
-          animator.SetBool("Dead", true);
-          if(lives == 2)
-          {
-            life3.gameObject.SetActive (false);// remove the 3rd life
-          }
-          else if(lives == 1)
-          {
-            life2.gameObject.SetActive (false);// remove the 2nd life
-          }
           if(lives > 0)
           {
-            //isDead = true; // the player has died so the collectables need to be reset
-            transform.position = PlayerMovement.respawnPoint;//respawns
-            hungerLevel = hungerLevelMax;
+                playerDying = true;
+                animator.SetTrigger("DeathAnim");
+                StartCoroutine(RespawnPlayer());
           }
           else
           {
-            life1.gameObject.SetActive (false);// remove the 1st life
-            MenuManager.levelLose = true; // tells level changer that the player lost 3 lives
+                playerDying = true;
+                animator.SetTrigger("DeathAnim");
+                StartCoroutine(KillPlayer());
           }
 
         }
     }
 
+
+    private IEnumerator RespawnPlayer() {
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Player Death"));
+        transform.localScale *= 0.66f;
+        yield return new WaitForSeconds(4.0f);
+        transform.position = PlayerMovement.respawnPoint;//respawns
+        hungerLevel = hungerLevelMax;
+        animator.SetBool("Dead", true);
+        playerDying = false;
+        transform.localScale /= 0.66f;
+        if (lives == 2) {
+            life3.gameObject.SetActive(false);// remove the 3rd life
+        }
+        else if (lives == 1) {
+            life2.gameObject.SetActive(false);// remove the 2nd life
+        }
+    }
+
+    private IEnumerator KillPlayer() {
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Player Death"));
+        transform.localScale *= 0.66f;
+        yield return new WaitForSeconds(4.0f);
+        life1.gameObject.SetActive(false);// remove the 1st life
+        MenuManager.levelLose = true; // tells level changer that the player lost 3 lives
+        playerDying = false;
+        transform.localScale /= 0.66f;
+    }
 }
