@@ -125,7 +125,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()// move the player character
     { //fixedDeltaTime ensures that the player speed is always the same across all platforms and systems
-      if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup")) {
+      if(!animator.GetCurrentAnimatorStateInfo(0).IsName("Powerup") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Dumpster Finale")) {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump); //gets input for (moveing left and right, crouching, jumping)
       } else {
         controller.Move(0f, false, false);
@@ -256,7 +256,10 @@ public class PlayerMovement : MonoBehaviour
       }
       if(other.tag == "Win Area")
       {
-        MenuManager.levelWin = true;
+        rb.isKinematic = true;
+        transform.localScale *= 2.0f;
+        transform.position = new Vector2(other.transform.position.x - 2.5f, other.transform.position.y + 0.2f);
+        StartCoroutine(WinLevel());
       }
     }
 
@@ -282,5 +285,11 @@ public class PlayerMovement : MonoBehaviour
       {
 
       }
+    }
+
+    private IEnumerator WinLevel() {
+        animator.SetTrigger("Dumpster");
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        MenuManager.levelWin = true;
     }
 }
