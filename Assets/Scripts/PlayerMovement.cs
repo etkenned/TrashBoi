@@ -258,8 +258,8 @@ public class PlayerMovement : MonoBehaviour
       if(other.tag == "Win Area")
       {
         rb.isKinematic = true;
-        transform.localScale *= 2.0f;
-        transform.position = new Vector2(other.transform.position.x - 2.5f, other.transform.position.y + 0.2f);
+        //transform.localScale *= 2.0f;
+        transform.position = new Vector2(other.transform.position.x - 2.5f, other.transform.position.y + 0.35f);
         StartCoroutine(WinLevel());
       }
     }

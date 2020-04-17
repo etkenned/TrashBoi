@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 9208690814737121832}
   - component: {fileID: 9208690814737121833}
-  - component: {fileID: 9208690814737121838}
   - component: {fileID: 9208690814737121835}
+  - component: {fileID: 1915259466}
+  - component: {fileID: 1915259463}
   m_Layer: 0
   m_Name: flower_hazard
   m_TagString: Hazard
@@ -81,26 +82,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9208690814737121838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9208690814737121839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5736ecfa7cc6f647ab56f79fcf0bacd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 2
-  isFalling: 1
-  isSlowing: 0
-  speed: 9
-  distance: 14.5
-  startingPositoin: {x: 0, y: 0, z: 0}
-  FlowerWhole: {fileID: 21300000, guid: c2e2e1bc0ce2d6d4aac3d4edc9af0ef1, type: 3}
-  FlowerBroken: {fileID: 21300012, guid: c2e2e1bc0ce2d6d4aac3d4edc9af0ef1, type: 3}
 --- !u!61 &9208690814737121835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -127,3 +108,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3119372, y: 2.3498993}
   m_EdgeRadius: 0
+--- !u!95 &1915259466
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9208690814737121839}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6db144a809d9d934eaad5214a42f9f33, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1915259463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9208690814737121839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db5b796ed25265498b8a72cb80f8e94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 1915259466}
+  damageAmount: 2
+  speed: 9
+  distance: 8
+  startingPositoin: {x: 0, y: 0, z: 0}

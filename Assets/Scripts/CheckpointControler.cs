@@ -17,11 +17,6 @@ public class CheckpointControler : MonoBehaviour
         checkPointSource.clip = checkPointSound;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -36,7 +31,7 @@ public class CheckpointControler : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D other)
     {
-      if(other.tag == "Player") // shows that the player can still get food from the check point 
+      if(other.tag == "Player") // shows that the player can still get food from the check point
       {
         checkpointSprite.sprite = TrashCanFull;
       }

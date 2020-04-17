@@ -119,13 +119,13 @@ public class HungerMeter : MonoBehaviour
 
     private IEnumerator RespawnPlayer() {
         yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Player Death"));
-        transform.localScale *= 0.66f;
+        //transform.localScale *= 0.66f;
         yield return new WaitForSeconds(4.0f);
         transform.position = PlayerMovement.respawnPoint;//respawns
         hungerLevel = hungerLevelMax;
         animator.SetBool("Dead", true);
         playerDying = false;
-        transform.localScale /= 0.66f;
+        //transform.localScale /= 0.66f;
         if (lives == 2) {
             life3.gameObject.SetActive(false);// remove the 3rd life
         }
