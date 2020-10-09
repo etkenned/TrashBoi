@@ -48,7 +48,12 @@ PrefabInstance:
     - target: {fileID: 1810554619644710325, guid: 2f4eef944798e474e9dbad3db91518bc,
         type: 3}
       propertyPath: m_Name
-      value: trash_road Fade
+      value: trash_road Fade Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810554619644710325, guid: 2f4eef944798e474e9dbad3db91518bc,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6799847486021307402, guid: 2f4eef944798e474e9dbad3db91518bc,
         type: 3}

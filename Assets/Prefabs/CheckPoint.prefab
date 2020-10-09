@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5100543d2e3fcbb4395a824fd8c734db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkPointSound: {fileID: 8300000, guid: f8bc6702a8264404ba1814b4633b99fc, type: 3}
+  checkPointSound: {fileID: 8300000, guid: b33f49a4b485a1949892964920360d08, type: 3}
   checkPointSource: {fileID: 800283054}
   TrashCanFull: {fileID: 21300000, guid: c71f5461ba2e222428c3a573abbc16f6, type: 3}
   TrashCanEmpty: {fileID: 21300000, guid: ea15be6d97ad6084983d9023711e70d9, type: 3}
@@ -136,7 +136,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2f37d8f888b8144e87fe597254d0742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eatingSound: {fileID: 8300000, guid: f8bc6702a8264404ba1814b4633b99fc, type: 3}
+  eatingSound: {fileID: 8300000, guid: 5fa9b32e87fca15439f3ff232ab0a025, type: 3}
   trashSource: {fileID: 8503043459670183644}
   trashValue: 10
 --- !u!82 &8503043459670183644

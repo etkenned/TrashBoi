@@ -12,6 +12,7 @@ TagManager:
   - EnemyTurnAround
   - HiddingSpot
   - Tramp
+  - BrotherSwap
   layers:
   - Default
   - TransparentFX

@@ -223,6 +223,10 @@ public class PlayerMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)// if the player collides with another collider
     {
+      if(other.tag == "Player" && BrotherReturn.playerExited == true)
+      {
+        animator.SetBool("IsBrother", false);
+      }
       if(other.tag == "Hazard" && isHidden == false)
       {
         HungerMeter.takeDamage = true;

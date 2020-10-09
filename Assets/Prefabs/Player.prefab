@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 208249524}
   - component: {fileID: 1505995809}
   - component: {fileID: 1505995810}
+  - component: {fileID: 1763694688}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -102,10 +103,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4099151756b9845a284d28d2538b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  jumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
-  m_AirControl: 1
+  airControl: 1
+  maxAirJumps: 0
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 1
@@ -208,7 +210,7 @@ MonoBehaviour:
   climbSpeed: 3
   hiddingLocation: {x: 0, y: 0}
   climbingLock: {x: 0, y: 0, z: 0}
-  scaredSound: {fileID: 8300000, guid: 3ddd1dd2c2e13d549b5f3c9a4b99d4a8, type: 3}
+  scaredSound: {fileID: 8300000, guid: 70bb8d976430e0447aca9e4bb4bf2435, type: 3}
   scaredSource: {fileID: 1505995809}
 --- !u!114 &8695317345799140144
 MonoBehaviour:
@@ -222,6 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7a437a30e31d5408382866ef76ad65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faintSound: {fileID: 8300000, guid: 6ef2d0ef11d4c1945a54e1a52fff6a45, type: 3}
+  faintSource: {fileID: 1505995810}
   life1: {fileID: 0}
   life2: {fileID: 0}
   life3: {fileID: 0}
@@ -282,7 +286,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3ddd1dd2c2e13d549b5f3c9a4b99d4a8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 70bb8d976430e0447aca9e4bb4bf2435, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -378,8 +382,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 6ef2d0ef11d4c1945a54e1a52fff6a45, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -464,6 +468,42 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1763694688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8695317345799140152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6a79f455e8f884b917096f8d141eb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingBoiPrefab: {fileID: 2463756478968213359, guid: e4607356e136fa5478ae873f4617f2bd,
+    type: 3}
+  playerMovement: {fileID: 8695317345799140156}
+  characterController: {fileID: 8695317345799140159}
+  playerCollider: {fileID: 8695317345799140147}
+  hungerMeter: {fileID: 8695317345799140144}
+  animator: {fileID: 208249524}
+  brothers:
+  - runSpeed: 40
+    climbSpeed: 3
+    jumpForce: 400
+    airControl: 1
+    maxAirJumps: 0
+    playerSize: 2.518151
+    happy: {fileID: 21300000, guid: 4fbe7a41e1018d548a06c2772594b56d, type: 3}
+    hungry: {fileID: 21300000, guid: ee319bc625d85b6489fb34eafdb7e596, type: 3}
+  - runSpeed: 400
+    climbSpeed: 6
+    jumpForce: 500
+    airControl: 0
+    maxAirJumps: 2
+    playerSize: 2.518151
+    happy: {fileID: 21300000, guid: 4fbe7a41e1018d548a06c2772594b56d, type: 3}
+    hungry: {fileID: 21300000, guid: ee319bc625d85b6489fb34eafdb7e596, type: 3}
 --- !u!1 &8695317345983713370
 GameObject:
   m_ObjectHideFlags: 0

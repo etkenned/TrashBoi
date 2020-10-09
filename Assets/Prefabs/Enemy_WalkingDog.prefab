@@ -46,8 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorEnemy: {fileID: 1457388272}
-  AlertClip: {fileID: 8300000, guid: 3ba940b881f61d54db225e0726f9f38f, type: 3}
+  AlertClip: {fileID: 8300000, guid: a07244865608c32439ffb0fcc36e9444, type: 3}
   AlertSource: {fileID: 570451823}
+  moveDistance: 0
 --- !u!61 &229761689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -293,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 4
   speed: 2
+  movingRight: 0
   moveDistance: 4
 --- !u!95 &1457388272
 Animator:

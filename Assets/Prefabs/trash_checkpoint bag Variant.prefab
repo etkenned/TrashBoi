@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2654926117103262359, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
       propertyPath: m_Name
-      value: trash_checkpoint bag
+      value: trash_checkpoint bag Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2654926117103262363, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
@@ -30,17 +30,17 @@ PrefabInstance:
     - target: {fileID: 2654926117103262363, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2654926117103262363, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2654926117103262363, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2654926117103262363, guid: f58a9f3909e21f147bf884143c04718a,
         type: 3}
@@ -98,7 +98,7 @@ PrefabInstance:
         type: 3}
       propertyPath: TrashCanEmpty
       value: 
-      objectReference: {fileID: 21300000, guid: aa0b08c00f1586e4b9983ac07bd6e803,
+      objectReference: {fileID: 21300000, guid: 74a272f3f5918d8428b5509589847ab7,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f58a9f3909e21f147bf884143c04718a, type: 3}

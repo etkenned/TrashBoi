@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BrotherReturn : MonoBehaviour {
-    private bool playerExited = false;
+    public static bool playerExited = false;
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player" && playerExited) {
             collision.gameObject.GetComponent<BrotherSwitch>().SwitchBrother();

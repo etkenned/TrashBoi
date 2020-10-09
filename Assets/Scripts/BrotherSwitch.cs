@@ -22,6 +22,7 @@ public class BrotherSwitch : MonoBehaviour {
     public CharacterController2D characterController;
     public CircleCollider2D playerCollider;
     public HungerMeter hungerMeter;
+    public Animator animator; // animator for the player
 
     public Brother[] brothers;
     Brother currentBrother;
@@ -55,12 +56,22 @@ public class BrotherSwitch : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if(Input.GetKeyDown(KeyCode.C) && currentBrotherIndex == 0) {
+
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+      if(other.tag == "BrotherSwap") // can only swap to brother at a changing station
+      {
+        if(Input.GetKeyDown(KeyCode.B) && currentBrotherIndex == 0) {
             SwitchBrother();
             GameObject waitingBoi = Instantiate(waitingBoiPrefab, transform.parent);
             waitingBoi.transform.position = transform.position;
+            animator.SetBool("IsBrother", true);
         }
+      }
     }
+
 
     public void SwitchBrother() {
         currentBrotherIndex = ++currentBrotherIndex % brothers.Length;

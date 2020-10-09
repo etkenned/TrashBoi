@@ -4,6 +4,8 @@ using UnityEngine;
 //code for the hunger meter, lives, and respawning
 public class HungerMeter : MonoBehaviour
 {
+  public AudioClip faintSound;
+  public AudioSource faintSource;
   public GameObject life1, life2, life3, happyFace, hungryFace, HM1, HM2, HM3, HM4, HM5, HM6, HM7, HM8, HM9, HM10, HM11, HM12, HM1_Red, HM2_Red, HM3_Red, HM4_Red, HM5_Red, HM6_Red, HM7_Red, HM8_Red, HM9_Red, HM10_Red, HM11_Red, HM12_Red; // get the life icons in the GUI
   public Animator animator; // animator for the player
   public static bool isDead = false;
@@ -18,6 +20,7 @@ public class HungerMeter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      faintSource.clip = faintSound;
       lives = 3; // gives the player 3 lives at the start of each scene incase something doesnt reset them
       hungerLevel = hungerLevelMax;
       life1.gameObject.SetActive (true);
@@ -104,6 +107,7 @@ public class HungerMeter : MonoBehaviour
           {
                 playerDying = true;
                 animator.SetTrigger("DeathAnim");
+                faintSource.Play();
                 StartCoroutine(RespawnPlayer());
           }
           else
