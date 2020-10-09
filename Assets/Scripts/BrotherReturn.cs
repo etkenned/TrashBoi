@@ -8,6 +8,7 @@ public class BrotherReturn : MonoBehaviour {
         if (collision.gameObject.tag == "Player" && playerExited) {
             collision.gameObject.GetComponent<BrotherSwitch>().SwitchBrother();
             Destroy(gameObject);
+            playerExited = false;
         }
     }
 

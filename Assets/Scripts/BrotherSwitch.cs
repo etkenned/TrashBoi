@@ -67,7 +67,6 @@ public class BrotherSwitch : MonoBehaviour {
             SwitchBrother();
             GameObject waitingBoi = Instantiate(waitingBoiPrefab, transform.parent);
             waitingBoi.transform.position = transform.position;
-            animator.SetBool("IsBrother", true);
         }
       }
     }
@@ -76,5 +75,6 @@ public class BrotherSwitch : MonoBehaviour {
     public void SwitchBrother() {
         currentBrotherIndex = ++currentBrotherIndex % brothers.Length;
         CurrentBrother = brothers[currentBrotherIndex];
+        animator.SetBool("IsBrother", currentBrotherIndex != 0);
     }
 }
