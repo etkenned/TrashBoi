@@ -63,6 +63,7 @@ public class HungerMeter : MonoBehaviour
         }
 
         //visual representation of hunger meter
+        //TODO: Set HungerBar on TakeDamage not every frame to get rid of GC
         HM1.SetActive(hungerLevel >= 1 && !takeDamage);
         HM2.SetActive(hungerLevel >= 3 && !takeDamage);
         HM3.SetActive(hungerLevel >= 5 && !takeDamage);
@@ -75,7 +76,6 @@ public class HungerMeter : MonoBehaviour
         HM10.SetActive(hungerLevel >= 19 && !takeDamage);
         HM11.SetActive(hungerLevel >= 21 && !takeDamage);
         HM12.SetActive(hungerLevel >= 23 && !takeDamage);
-
         HM1_Red.SetActive(hungerLevel >= 1);
         HM2_Red.SetActive(hungerLevel >= 3);
         HM3_Red.SetActive(hungerLevel >= 5);

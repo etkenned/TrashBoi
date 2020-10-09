@@ -48,12 +48,10 @@ public class MenuManager : MonoBehaviour
         levelTimeMin += 1;
         levelTimeSec = 0;
       }
-      timerText_pause.text = levelTimeMin + ":" + levelTimeSec.ToString("0.00"); //adds the time to the pause menu
-      timerText_end.text = levelTimeMin + ":" + levelTimeSec.ToString("0.00"); // asd the time to the end of the level screen
-
 
       if(levelWin == true)
       {
+        UpdateTimerText();
         winMenu.gameObject.SetActive (true); // if the player wins then the winscree is set to active
         Time.timeScale = 0f;
         isPaused = true;
@@ -164,7 +162,8 @@ public class MenuManager : MonoBehaviour
 
     public void PauseGame() // for when the pause menu is opened
     {
-      pauseMenu.gameObject.SetActive (true);
+        UpdateTimerText();
+        pauseMenu.gameObject.SetActive (true);
       Time.timeScale = 0f;
       isPaused = true;
     }
@@ -175,4 +174,8 @@ public class MenuManager : MonoBehaviour
       isPaused = false;
     }
 
+    private void UpdateTimerText() {
+        timerText_pause.text = levelTimeMin + ":" + levelTimeSec.ToString("0.00"); //adds the time to the pause menu
+        timerText_end.text = levelTimeMin + ":" + levelTimeSec.ToString("0.00"); // asd the time to the end of the level screen
+    }
 }
